@@ -1,0 +1,131 @@
+body > header {
+    background-color: #6495ED;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    color: white;
+    padding: 16px;
+    margin: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header,
+section h1,
+section h2,
+section h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header img {
+    width: 200px;
+    margin-right: 26px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+header li {
+    display:inline;
+    margin-left: 26px;
+    font-family: Impact;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+
+}
+
+.articles article {
+    width: 32%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+section {
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+#produtos {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#apresent {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#apresent h2 { 
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#apresent p {
+    font-size: 20px;
+}
+
+#produtos p {
+    font-size: 18px;
+}   
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-links img {
+    height: 30px;
+}   
+
+.social-links li {
+    display: inline;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}   
+
+.social-links a, img {
+    margin: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 95%;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form textarea {
+    resize: none;
+}
